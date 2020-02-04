@@ -1,6 +1,6 @@
 /* start the body*/
 body{
-    background-color: rgb(178, 140, 240);
+    background-color: #f5f5f5;
 }
 /* end the body*/
 /*start the container*/
@@ -8,6 +8,8 @@ body{
     margin: 25px auto;
     width: 900px;
     background-color: blueviolet;
+    box-shadow: 15px 15px 10px #130427 ;
+    
 }
 /*end the container*/
 /*start the header*/
@@ -30,7 +32,7 @@ header{
         border: 2px solid rgb(236, 6, 6);
         float: left;
         box-shadow: 5px 5px 2px rgb(226, 121, 121);
-        width: 100px;
+        width: 110px;
     }
     .img1:hover{
         transition: .5s ease-in-out;
@@ -67,7 +69,7 @@ header{
         border: 2px solid rgb(236, 6, 6);
         float: right;
         box-shadow: 5px 5px 2px rgb(226, 121, 121);
-        width: 100px;
+        width: 110px;
     }
     .img2:hover{
         transition: .5s ease-in-out;
@@ -77,31 +79,22 @@ header{
     }
     /*end the img2*/
     /*start the nav*/
-    nav{
-        
+    nav ul {
+        list-style: none;
+        text-align: center;
+        margin:0px auto ;
+    }
+    nav ul li{ padding: 0px 60px;
+        display: inline-block;
+        margin: 0px auto;
+        border: 1px solid rgb(200, 243, 6);
+        font-size: 25px;
+        color: #dff709;
+
     }
     /*end the nav*/
-        /*srart the ul*/
-        ul{
+       
             
-            list-style: none;
-            text-align: center;
-            margin:0px auto ;
-        }
-        /*end the ul*/
-            /*start the li*/
-            li{
-                padding: 0px 60px;
-                display: inline-block;
-                margin: 30px auto;
-                border: 1px solid rgb(12, 204, 70);
-                font-size: 25px;
-            }
-            li:hover{
-                background-color: #dff709;
-                color: rgb(223, 96, 12);
-            }
-            /*end the li*/
 
 /*start the main*/
 .full{
@@ -115,6 +108,8 @@ header{
 .full h3{
     padding: 10px;
     color: rgb(236, 221, 9);
+    text-shadow: 10px -7px 5px #dff709;
+    
 }
 .full p{
     padding: 15px;
