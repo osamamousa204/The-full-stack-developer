@@ -6,7 +6,7 @@ var pro = prompt("what is your  professionalism grade?");
 console.log(pro);
 var result ;
 
-if (att >= 90 && grade + pro >= 90   ) {     
+if (att >= 90 & grade+pro >= 90) {     
     result = 'congrasulations you passed to 201 class! :)';   
 } 
   
