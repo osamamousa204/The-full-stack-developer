@@ -10,6 +10,7 @@ body{
     width: 900px;
     background-color: blueviolet;
     box-shadow: 15px 15px 10px #130427 ;
+    padding: 15px;
     
 }
 /*end the container*/
@@ -214,6 +215,16 @@ footer{
     text-align: center;
     color: black;
     border: 5px solid #18031d;
+}
+.grade{
+    text-align: center;
+    padding: 10px;
+    color: #dff709;
+    background-color: #ee3304;
+    display: block;
+    border: 5px solid #dff709;
+    border-radius: 30px;
+    margin-bottom: 15px;
 }
 
 /*end the footer*/
