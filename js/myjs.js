@@ -9,7 +9,7 @@
 
 
 function candivide4 ( ){
-    var N4 =prompt("type a Num can be divided at 0") ;
+    var N4 =prompt("type a Num can be divided at 4") ;
     var result;
     
     if (N4 % 4 === 0) {     
