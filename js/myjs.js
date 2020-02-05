@@ -1,26 +1,38 @@
+// var grade = parseInt(prompt("what is your grade ?"));
+// console.log(grade);
+// var att = prompt("what is your  attendance grade ?");
+// console.log(att);
+// var pro = parseInt(prompt("what is your  professionalism grade?"));
+// console.log(pro);
+// console.log(pro+grade);
 
 
 
-function myresult ( att,grade,pro){
+function candivide4 ( ){
+    var N4 =prompt("type a Num can be divided at 0") ;
     var result;
-    if (att >= 90 && grade+pro >= 90) {     
-        result = 'congrasulations you passed to 201 class! :)';   
+    
+    if (N4 % 4 === 0) {     
+        result =  N4+' is correct';   
     } 
     
       
      else {     
-        result = 'sorry you droped :(!';   
+        while(N4 %4 !== 0){
+            N4= prompt("type a correct value") ;
+        }
+        result =  N4+' is correct'; 
     } 
-    console.log(result);
-    return result;
+   return result; 
 
 }
-
-var grade = prompt("what is your grade ?");
-console.log(grade);
-var att = prompt("what is your  attendance grade ?");
-console.log(att);
-var pro = prompt("what is your  professionalism grade?");
-console.log(pro);
+var birds = prompt("how many birds do you want?");
+var pic = "";
+function callbirds ( ){
+    for(var i = 0; i < birds; i = i+1){
+        pic = pic + '<img scr="pic/Annotation 2020-02-03 210312.png">';
+    } 
+    return pic;
+}
 
 
