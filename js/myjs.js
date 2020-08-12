@@ -45,7 +45,6 @@ function createven  () {
     var result = "" ;
 
     
-    // var greeting; 
     
 
     while (N1  % 2 !== 0 ){
@@ -74,5 +73,4 @@ function createven  () {
 //     return picture;
 // }
 
-document.write('<div class="n">'+createven()+'</div>');
 

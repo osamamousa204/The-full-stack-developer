@@ -1,0 +1,90 @@
+
+footer{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+/* =================(footer header)================ */
+.headFooter{
+    height: 140px;
+    background-color: #1E2D41;
+    display: flex;
+    padding: 0%;
+    justify-content: space-around;
+}
+
+.headFooter-1{
+    width: 481px; 
+    /* background-color: tomato; */
+    display: flex;
+
+}
+.headfooter-1-1{
+    width: 80%;
+    /* background-color: yellow; */
+    padding: .01em 1em;
+}
+.headfooter-1-1 > h3{
+    color: #FFFFF9;
+    font-size: 27px;
+    margin: 1em 0em;
+    letter-spacing: 5px;
+}
+.headfooter-1-1 > p{
+    color: #B9CCCD;
+}
+
+.headFooter-2{
+    width: 20%;
+    /* background-color: yellowgreen; */
+display: flex;
+align-items: center;
+justify-content: space-around;
+padding: .01em 1em;
+}
+.headFooter-2 > span{
+    background-color: #1E2D41;
+    border-radius: 50%;
+    padding: 1em;
+}
+.headFooter-3{
+    width: 360px;
+    /* background-color: violet; */
+}
+
+.headFooter-3 > h4{
+    color: #FFFFF9;
+    font-size: 27px;
+    margin: 1em 0em;
+    letter-spacing: 5px;
+}
+.headFooter-3 >p{
+    color: #B9CCCD;
+}
+
+
+
+.headFooter-4{
+    width: 353px;
+    display: flex;
+    justify-content: center;
+    /* background-color: whitesmoke; */
+    align-items: center;
+}
+.headFooter-4 form input{
+    margin: 0px;
+}
+
+/* =================(footer main)================ */
+.mainFooter{
+    height: 393px;
+    background-color: #182333;
+    
+}
+/* =================(footer bootom)================ */
+.bottomFooter{
+    height: 60px;
+    background-color: #16202E;
+    
+}
